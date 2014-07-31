@@ -1,0 +1,21 @@
+{
+	"name":"newbee_create",
+	"version":"1.0.0",
+	"description":"newbee website of html5",
+	"author":"zjliu",
+	"config":{},
+	"repository":"",
+	"licenses":"MIT",
+	"dependencies":{},
+	"scripts":{},
+	"engines":{
+		"node": ">= 0.8.0"
+	},
+	"devDependencies":{
+		"grunt": "^0.4.4",
+		"grunt-cmd-concat": "~0.2.5",
+		"grunt-contrib-uglify": "~0.4.0",
+		"grunt-contrib-cssmin": "~0.9.0",
+		"grunt-contrib-copy": "v0.5.0"
+	}
+}

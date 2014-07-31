@@ -1,0 +1,9 @@
+module.exports=function(grunt){
+	grunt.initConfig({
+		pkg:grunt.file.readJSON('package.json'),
+	});
+	grunt.loadNpmTasks('grunt-contrib-gulify');
+	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-contrib-concat');
+	grunt.loadNpmTasks('grunt-contrib-copy');
+}
