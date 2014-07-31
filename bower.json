@@ -11,14 +11,15 @@
   ],
   "license": "MIT",
   "private": true,
-  "dependencies":{
-	"angular":"*",
-	"requirejs":"*",
-	"jquery":"1.7.2",
-	"json3":"*"
+  "dependencies": {
+    "angular": "*",
+    "requirejs": "*",
+    "jquery": "1.7.2",
+    "json3": "*",
+    "bootstrap": "~3.2.0"
   },
-  "directory":"src",
-  "cwd":"src",
+  "directory": "src",
+  "cwd": "src",
   "ignore": [
     "**/.*",
     "node_modules",
