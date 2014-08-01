@@ -1,0 +1,24 @@
+<form name='addUserForm'>
+  <table>
+    <tr>
+      <td>
+        <strong>Sender</strong>
+        <strong>Subject</strong>
+        <strong>Date</strong>
+      </td>
+    </tr>
+    <tr ng-repeat='message in messages'>
+      <td>{{message.sender}}</td>
+      <td>
+        <a href='#view/{{message.id}}'>{{message.subject}}</a>
+      </td>
+      <td>{{message.date}}</td>
+    </tr>
+    <tr ng-repeat='form in forms'>
+      <td>{{form.name}}</td>
+      <td>
+        <input name='{{form.name}}' ng-model='form.value' required='' type='{{form.type}}'>
+      </td>
+    </tr>
+  </table>
+</form>

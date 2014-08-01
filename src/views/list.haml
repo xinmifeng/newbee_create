@@ -1,0 +1,17 @@
+%form{:name=>'addUserForm'}
+	%table
+		%tr
+			%td
+				%strong Sender
+				%strong Subject
+				%strong Date
+		%tr{"ng-repeat"=>"message in messages"}
+			%td {{message.sender}}
+			%td
+				%a{:href=>"#view/{{message.id}}"} {{message.subject}}
+			%td {{message.date}}
+		%tr{"ng-repeat"=>"form in forms"}
+			%td {{form.name}}
+			%td
+				%input{:name=>"{{form.name}}",:type=>"{{form.type}}","ng-model"=>"form.value",:required=>""}
+

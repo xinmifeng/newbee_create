@@ -11,8 +11,8 @@ module.exports=function(grunt){
 			dist:{
 				files:{
 					'<%= appCfg.app %>/index.html':'<%= appCfg.app %>/index.haml',
-					'<%= appCfg.app %>/views/index_p1.html':'<%= appCfg.app %>/views/index_p1.haml',
-					'<%= appCfg.app %>/views/index_p2.html':'<%= appCfg.app %>/views/index_p2.haml'
+					'<%= appCfg.app %>/views/list.html':'<%= appCfg.app %>/views/list.haml',
+					'<%= appCfg.app %>/views/detail.html':'<%= appCfg.app %>/views/detail.haml'
 				}
 			}
 		}

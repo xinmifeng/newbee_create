@@ -14,6 +14,7 @@
   "private": true,
   "dependencies": {
     "angular": "*",
+	"angular-route":"*",
     "requirejs": "*",
     "jquery": "1.7.2",
     "json3": "*",
