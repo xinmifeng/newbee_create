@@ -2,6 +2,7 @@
   "name": "newbee_create",
   "version": "0.0.0",
   "homepage": "https://github.com/xinmifeng/newbee_create",
+  "appPath":"src",
   "authors": [
     "zjliu <liuzhijunsw@126.com>"
   ],
@@ -18,8 +19,6 @@
     "json3": "*",
     "bootstrap": "~3.2.0"
   },
-  "directory": "src",
-  "cwd": "src",
   "ignore": [
     "**/.*",
     "node_modules",
